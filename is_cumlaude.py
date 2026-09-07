@@ -6,7 +6,7 @@
 #  is_cumlaude(x,waktu): float -> bool
 #   {is_cumlaude(x,y) akan menerima input float dan akan bernilai true jika ipk >= 3.50 and  waktu <= 54}
 
-def is_cumlaude(ipk:float, waktu:float)-> bool:
+def iscumlaude(ipk:float, waktu:float)-> bool:
     return(ipk >= 3.50 and waktu <= 54)
 
-print(is_cumlaude(3.90,54))
+print(iscumlaude(3.90,54))

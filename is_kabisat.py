@@ -6,9 +6,9 @@
 #  is_kabisat(x): int -> bool
 #   {is_kabisat(x) akan bernilai true jika x % 400 == 0 or (x % 4 == 0 and x % 100 != 0)}
 
-def is_kabisat(x:int) -> bool:
+def iskabisat(x:int) -> bool:
     return(x % 400 == 0 or (x % 4 == 0 and x % 100 != 0))
 
-print(is_kabisat(1900))
-print(is_kabisat(2000))
-print(is_kabisat(1996))
+print(iskabisat(1900))
+print(iskabisat(2000))
+print(iskabisat(1996))
