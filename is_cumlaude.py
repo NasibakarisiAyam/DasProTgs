@@ -7,6 +7,6 @@
 #   {is_cumlaude(x,y) akan menerima input float dan akan bernilai true jika ipk >= 3.50 and  waktu <= 54}
 
 def iscumlaude(ipk:float, waktu:float)-> bool:
-    return(ipk >= 3.50 and waktu <= 54)
+    return(3.50<=ipk<=4.0 and waktu <= 54)
 
 print(iscumlaude(3.90,54))
